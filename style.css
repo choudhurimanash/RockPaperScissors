@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: darkblue;
+  color: aliceblue;
+  padding: 2rem;
+}
+
+.choice {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  background-color: rgb(37, 53, 224);
+  cursor: pointer;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+#msg{
+    background-color: rgb(11, 43, 221);
+    color: azure;
+    font-size: 2rem;  
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.msg-container{
+    margin-top: 4rem;
+}
+
+footer{
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 3.5rem;
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+.git{
+    height: 2rem;
+    width: 2rem;
+}
